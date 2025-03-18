@@ -1,7 +1,7 @@
 def power(a, b):
     result = 1
-    base = a  # First extra variable
-    exponent = b  # Second extra variable
+    base = a  
+    exponent = b  
 
     while exponent > 0:
         result *= base
@@ -10,7 +10,6 @@ def power(a, b):
     return result
 
 
-# Example usage
-a = 2
-b = 5
-print(power(a, b))  # Output: 32
+a = 3
+b = 4
+print(power(a, b))
