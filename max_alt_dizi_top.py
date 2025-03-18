@@ -1,4 +1,3 @@
-#Maksimum Alt Dizi Toplamı (Divide and Conquer Yaklaşımı)
 
 def max_subarray_sum(arr):
     def helper(low, high):
